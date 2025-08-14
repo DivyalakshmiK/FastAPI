@@ -11,7 +11,7 @@ class Gender(str, Enum):
 
 @app.get("/")
 def simple_hello():
-    return {"message": "Hello, world!"}
+    return {"message": "Hello, world!!"}
 
 @app.get("/name/{your_name}")
 def say_my_name(your_name: str):
