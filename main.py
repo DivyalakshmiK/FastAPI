@@ -32,3 +32,8 @@ async def your_gender(gender: Gender):
 def find_your_file(filepath: str):
     return {"Your file is in" : filepath}
 
+@app.get("/yourbias/{bias}")
+def find_my_bias(bias:str):
+    return{"Found your bias" : bias}
+
+
